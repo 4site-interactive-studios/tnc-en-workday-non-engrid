@@ -1,0 +1,22 @@
+{
+  "name": "tnc-en-workday-non-engrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/workday-non-engrid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4site-interactive-studios/tnc-en-events-mobile-optin.git"
+  },
+  "author": "4Site Studios",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/4site-interactive-studios/tnc-en-events-mobile-optin/issues"
+  },
+  "homepage": "https://github.com/4site-interactive-studios/tnc-en-events-mobile-optin#readme",
+  "dependencies": {
+    "prettier": "^3.6.2"
+  }
+}
