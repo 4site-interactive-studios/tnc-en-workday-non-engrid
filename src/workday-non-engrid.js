@@ -82,12 +82,8 @@
       },
     },
   ];
-  const revenueCategoryField = document.querySelector(
-    '[name="transaction.othamt4"]'
-  );
-  const applicationOtherField = document.querySelector(
-    '[name="transaction.othamt1"]'
-  );
+  let revenueCategoryField;
+  let applicationOtherField;
 
   function shouldRun() {
     return !!(revenueCategoryField && applicationOtherField);
@@ -152,6 +148,12 @@
   }
 
   function run() {
+    revenueCategoryField = document.querySelector(
+      '[name="transaction.othamt4"]'
+    );
+    applicationOtherField = document.querySelector(
+      '[name="transaction.othamt1"]'
+    );
     if (!shouldRun()) return;
     log("Running Workday field mapping");
     setNewFieldValues();
